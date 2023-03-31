@@ -3,5 +3,3 @@ const changeImg = ()=> {
     document.querySelector('img').src = 'images/' + rand + '.jpg'
 }
 changeImg();
-
-document.querySelector('button').addEventListener('click', changeImg);
